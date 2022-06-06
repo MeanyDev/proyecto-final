@@ -40,6 +40,9 @@
                 <li class="nav-item">
                   <a href="./author.html" class="nav-link">Autor</a>
                 </li>
+                <li class="nav-item">
+                  <a href="https://github.com/MeanyDev/proyecto-final" class="nav-link" target="_blank">Repositorio del Código</a>
+                </li>
               </ul>
             </div>
           </div>
