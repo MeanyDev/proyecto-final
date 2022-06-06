@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registrarse</title>
-    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/nav.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a href="./" class="nav-link">Inicio</a>
+                  <a href="../../index.html" class="nav-link">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a href="./author.html" class="nav-link">Autor</a>
