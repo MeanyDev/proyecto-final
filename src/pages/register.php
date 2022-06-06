@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registrarse</title>
     <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/register.css">
     <link rel="stylesheet" href="../css/nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -150,6 +155,52 @@
         <button type="submit" name="Enviar" class="btn btn-primary">Enviar</button>
       </form>
     </main>
+    <footer class="bg-dark">
+      <p class="text-light text-center m-0 fs-5">Contacto</p>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://github.com/MeanyDev"
+            target="_blank"
+            id="github"
+          >
+            <i class="bi bi-github"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://discord.gg/cSKy2tGKmh"
+            target="_blank"
+            id="discord"
+          >
+            <i class="bi bi-discord"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://www.instagram.com/lobilux_uwu/"
+            target="_blank"
+          >
+            <i class="bi bi-instagram" id="instagram"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://twitter.com/LobiLux_UwU"
+            target="_blank"
+          >
+            <i
+              class="bi bi-twitter d-inline-block text-center"
+              id="twitter"
+            ></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
