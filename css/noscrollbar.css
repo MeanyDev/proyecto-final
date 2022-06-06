@@ -1,0 +1,9 @@
+@-moz-document url-prefix() {
+  html {
+    scrollbar-width: none;
+  }
+}
+body::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
