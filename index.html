@@ -6,36 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio</title>
     <link rel="shortcut icon" href="./src/img/icon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./src/css/index.css" />
     <link rel="stylesheet" href="./src/css/nav.css" />
+    <link rel="stylesheet" href="./src/css/index.css" />
     <link rel="stylesheet" href="./src/css/noscrollbar.css" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand bg-dark">
         <div class="container-fluid">
           <div class="col d-flex justify-content-start">
-            <a
-              href="https://github.com/MeanyDev"
-              class="navbar-brand fw-bold nav-link"
-              target="_blank"
-            >
-              <img
-                src="./src/img/icon.png"
-                alt="Logo"
-                width="30"
-                class="pb-1"
-              />
+            <a href="https://github.com/MeanyDev" class="navbar-brand fw-bold nav-link" target="_blank">
+              <img src="./src/img/icon.png" alt="Logo" width="30" class="pb-1" />
               MeanyDev
             </a>
             <div class="collapse navbar-collapse">
@@ -47,6 +35,9 @@
                   <a href="./src/pages/author.html" class="nav-link">Autor</a>
                 </li>
                 <li class="nav-item">
+                  <a href="./src/pages/clock.html" class="nav-link">Reloj</a>
+                </li>
+                <li class="nav-item">
                   <a href="https://github.com/MeanyDev/proyecto-final" class="nav-link" target="_blank">Repositorio del Código</a>
                 </li>
               </ul>
@@ -54,25 +45,16 @@
           </div>
           <div class="col d-flex justify-content-end me-3">
             <div class="dropdown-center">
-              <button
-                class="btn btn-dark dropdown-toggle"
-                data-bs-toggle="dropdown"
-              >
-                Base de Datos
-              </button>
+              <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">Base de Datos</button>
               <ul class="dropdown-menu dropdown-menu-dark">
                 <li>
-                  <a class="dropdown-item" href="./src/pages/register.php"
-                    >Registrarse</a
-                  >
+                  <a class="dropdown-item" href="./src/pages/register.php">Registrarse</a>
                 </li>
                 <li>
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./src/pages/show.php"
-                    >Mostrar Registros</a
-                  >
+                  <a class="dropdown-item" href="./src/pages/show.php">Mostrar Registros</a>
                 </li>
               </ul>
             </div>
@@ -81,127 +63,47 @@
       </nav>
     </header>
     <main class="col mx-auto">
-      <div
-        id="carouselWindPowerImages"
-        class="carousel slide"
-        data-bs-ride="true"
-      >
+      <div id="carouselWindPowerImages" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
-          <button
-            class="active"
-            data-bs-target="#carouselWindPowerImages"
-            data-bs-slide-to="0"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            data-bs-target="#carouselWindPowerImages"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            data-bs-target="#carouselWindPowerImages"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            data-bs-target="#carouselWindPowerImages"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-          <button
-            data-bs-target="#carouselWindPowerImages"
-            data-bs-slide-to="4"
-            aria-label="Slide 5"
-          ></button>
-          <button
-            data-bs-target="#carouselWindPowerImages"
-            data-bs-slide-to="5"
-            aria-label="Slide 6"
-          ></button>
+          <button class="active" data-bs-target="#carouselWindPowerImages" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+          <button data-bs-target="#carouselWindPowerImages" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button data-bs-target="#carouselWindPowerImages" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button data-bs-target="#carouselWindPowerImages" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button data-bs-target="#carouselWindPowerImages" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button data-bs-target="#carouselWindPowerImages" data-bs-slide-to="5" aria-label="Slide 6"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              src="./src/img/1.jpg"
-              alt="Energía Eólica 1"
-              class="d-block w-100"
-            />
+            <img src="./src/img/1.jpg" alt="Energía Eólica 1" class="d-block w-100" />
           </div>
           <div class="carousel-item">
-            <img
-              src="./src/img/2.jpg"
-              alt="Energía Eólica 2"
-              class="d-block w-100"
-            />
+            <img src="./src/img/2.jpg" alt="Energía Eólica 2" class="d-block w-100" />
           </div>
           <div class="carousel-item">
-            <img
-              src="./src/img/3.jpg"
-              alt="Energía Eólica 3"
-              class="d-block w-100"
-            />
+            <img src="./src/img/3.jpg" alt="Energía Eólica 3" class="d-block w-100" />
           </div>
           <div class="carousel-item">
-            <img
-              src="./src/img/4.jpg"
-              alt="Energía Eólica 4"
-              class="d-block w-100"
-            />
+            <img src="./src/img/4.jpg" alt="Energía Eólica 4" class="d-block w-100" />
           </div>
           <div class="carousel-item">
-            <img
-              src="./src/img/5.jpg"
-              alt="Energía Eólica 5"
-              class="d-block w-100"
-            />
+            <img src="./src/img/5.jpg" alt="Energía Eólica 5" class="d-block w-100" />
           </div>
           <div class="carousel-item">
-            <img
-              src="./src/img/6.jpg"
-              alt="Energía Eólica 6"
-              class="d-block w-100"
-            />
+            <img src="./src/img/6.jpg" alt="Energía Eólica 6" class="d-block w-100" />
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          data-bs-target="#carouselWindPowerImages"
-          data-bs-slide="prev"
-        >
+        <button class="carousel-control-prev" data-bs-target="#carouselWindPowerImages" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         </button>
-        <button
-          class="carousel-control-next"
-          data-bs-target="#carouselWindPowerImages"
-          data-bs-slide="next"
-        >
+        <button class="carousel-control-next" data-bs-target="#carouselWindPowerImages" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-      <div
-        id="carouselWindPowerVideos"
-        class="carousel slide"
-        data-bs-ride="true"
-      >
+      <div id="carouselWindPowerVideos" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
-          <button
-            class="active"
-            data-bs-target="#carouselWindPowerVideos"
-            data-bs-slide-to="0"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            data-bs-target="#carouselWindPowerVideos"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            data-bs-target="#carouselWindPowerVideos"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+          <button class="active" data-bs-target="#carouselWindPowerVideos" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+          <button data-bs-target="#carouselWindPowerVideos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button data-bs-target="#carouselWindPowerVideos" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -229,18 +131,10 @@
             ></iframe>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          data-bs-target="#carouselWindPowerVideos"
-          data-bs-slide="prev"
-        >
+        <button class="carousel-control-prev" data-bs-target="#carouselWindPowerVideos" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         </button>
-        <button
-          class="carousel-control-next"
-          data-bs-target="#carouselWindPowerVideos"
-          data-bs-slide="next"
-        >
+        <button class="carousel-control-next" data-bs-target="#carouselWindPowerVideos" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
@@ -249,52 +143,31 @@
       <p class="text-light text-center m-0 fs-5">Contacto</p>
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a
-            class="nav-link"
-            href="https://github.com/MeanyDev"
-            target="_blank"
-            id="github"
-          >
+          <a class="nav-link" href="https://github.com/MeanyDev" target="_blank" id="github">
             <i class="bi bi-github"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a
-            class="nav-link"
-            href="https://discord.gg/cSKy2tGKmh"
-            target="_blank"
-            id="discord"
-          >
+          <a class="nav-link" href="https://discord.gg/cSKy2tGKmh" target="_blank" id="discord">
             <i class="bi bi-discord"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a
-            class="nav-link"
-            href="https://www.instagram.com/lobilux_uwu/"
-            target="_blank"
-          >
+          <a class="nav-link" href="https://www.instagram.com/lobilux_uwu/" target="_blank">
             <i class="bi bi-instagram" id="instagram"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a
-            class="nav-link"
-            href="https://twitter.com/LobiLux_UwU"
-            target="_blank"
-          >
-            <i
-              class="bi bi-twitter d-inline-block text-center"
-              id="twitter"
-            ></i>
+          <a class="nav-link" href="https://twitter.com/LobiLux_UwU" target="_blank">
+            <i class="bi bi-twitter d-inline-block text-center" id="twitter"></i>
           </a>
         </li>
       </ul>
     </footer>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     ></script>
   </body>
 </html>

@@ -6,29 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio</title>
     <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="../css/show.css">
     <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/show.css" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
   </head>
   <body class="bg-dark">
     <header>
       <nav class="navbar navbar-expand bg-dark">
         <div class="container-fluid">
           <div class="col d-flex justify-content-start">
-            <a
-              href="https://github.com/MeanyDev"
-              class="navbar-brand fw-bold nav-link"
-              target="_blank"
-            >
+            <a href="https://github.com/MeanyDev" class="navbar-brand fw-bold nav-link" target="_blank">
               <img src="../img/icon.png" alt="Logo" width="30" class="pb-1" />
               MeanyDev
             </a>
@@ -41,22 +34,17 @@
                   <a href="./author.html" class="nav-link">Autor</a>
                 </li>
                 <li class="nav-item">
+                  <a href="./clock.html" class="nav-link">Reloj</a>
+                </li>
+                <li class="nav-item">
                   <a href="https://github.com/MeanyDev/proyecto-final" class="nav-link" target="_blank">Repositorio del Código</a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col d-flex justify-content-center">
-            <input type="text" name="filtro" id="filtro" placeholder="Filtro" class="form-control">
-          </div>
           <div class="col d-flex justify-content-end me-3">
             <div class="dropdown-center">
-              <button
-                class="btn btn-dark dropdown-toggle"
-                data-bs-toggle="dropdown"
-              >
-                Base de Datos
-              </button>
+              <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">Base de Datos</button>
               <ul class="dropdown-menu dropdown-menu-dark">
                 <li>
                   <a class="dropdown-item" href="./register.php">Registrarse</a>
@@ -65,9 +53,7 @@
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./show.php"
-                    >Mostrar Registros</a
-                  >
+                  <a class="dropdown-item" href="./show.php">Mostrar Registros</a>
                 </li>
               </ul>
             </div>
@@ -93,7 +79,7 @@
         $conn = new mysqli($host, $user, $password, $db, $port);
         $sql = "SELECT * FROM alumnos";
         $query = $conn->query($sql);
-        
+
         if ($query->num_rows > 0) {
           echo '
             <table class="table table-dark table-hover table-borderless">
@@ -145,53 +131,32 @@
       <p class="text-light text-center m-0 fs-5">Contacto</p>
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a
-            class="nav-link"
-            href="https://github.com/MeanyDev"
-            target="_blank"
-            id="github"
-          >
+          <a class="nav-link" href="https://github.com/MeanyDev" target="_blank" id="github">
             <i class="bi bi-github"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a
-            class="nav-link"
-            href="https://discord.gg/cSKy2tGKmh"
-            target="_blank"
-            id="discord"
-          >
+          <a class="nav-link" href="https://discord.gg/cSKy2tGKmh" target="_blank" id="discord">
             <i class="bi bi-discord"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a
-            class="nav-link"
-            href="https://www.instagram.com/lobilux_uwu/"
-            target="_blank"
-          >
+          <a class="nav-link" href="https://www.instagram.com/lobilux_uwu/" target="_blank">
             <i class="bi bi-instagram" id="instagram"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a
-            class="nav-link"
-            href="https://twitter.com/LobiLux_UwU"
-            target="_blank"
-          >
-            <i
-              class="bi bi-twitter d-inline-block text-center"
-              id="twitter"
-            ></i>
+          <a class="nav-link" href="https://twitter.com/LobiLux_UwU" target="_blank">
+            <i class="bi bi-twitter d-inline-block text-center" id="twitter"></i>
           </a>
         </li>
       </ul>
     </footer>
     <script src="../js/filter.js"></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     ></script>
   </body>
 </html>
