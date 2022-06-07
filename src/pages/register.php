@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
   </head>
   <body>
-    <header style="position: fixed; z-index: 1;" class="w-100">
+    <header class="w-100">
       <nav class="navbar navbar-expand bg-dark">
         <div class="container-fluid">
           <div class="col d-flex justify-content-start">
