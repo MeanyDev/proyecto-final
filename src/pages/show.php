@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/nav.css" />
     <link rel="stylesheet" href="../css/show.css" />
+    <link rel="stylesheet" href="../css/noscrollbar.css" />
     <link
       rel="stylesheet"
       crossorigin="anonymous"
