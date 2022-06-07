@@ -131,23 +131,18 @@
       <p class="text-light text-center m-0 fs-5">Contacto</p>
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/MeanyDev" target="_blank" id="github">
-            <i class="bi bi-github"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://discord.gg/cSKy2tGKmh" target="_blank" id="discord">
-            <i class="bi bi-discord"></i>
+          <a class="nav-link" href="https://github.com/MeanyDev" target="_blank">
+            <i class="bi bi-github" id="github" title="GitHub"> GitHub</i>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.instagram.com/lobilux_uwu/" target="_blank">
-            <i class="bi bi-instagram" id="instagram"></i>
+            <i class="bi bi-instagram" id="instagram" title="Instagram"> Instagram</i>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://twitter.com/LobiLux_UwU" target="_blank">
-            <i class="bi bi-twitter d-inline-block text-center" id="twitter"></i>
+            <i class="bi bi-twitter d-inline-block text-center" id="twitter" title="Twitter"> Twitter</i>
           </a>
         </li>
       </ul>
